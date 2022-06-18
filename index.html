@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="heroText">
+            <div class="header">
+                <h1>
+                    Learn to code by watching others
+                </h1>
+            </div>
+            <p>
+                see how experienced developers solve problems in real-time. Watching scripted tutoraialis is great. but understanding how developers think is invaluable.
+            </p>
 
+        </div>
+        <div class="heroForm">
+            <div class="text">
+                <div class="textCont">
+                    <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+                </div>  
+            </div>
+            <div class="form">
+                <form  onsubmit="event.preventDefault() ; validateForm()">
+                    
+                    <div class="form-group">
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                        <i><img src="./icon-error.svg" id="fa1"></i>
+                    </div>
+                    <p class="error"></p>
+
+                    <div class="form-group">
+                        <input type="text" name="lastname" id="lastName" placeholder="Last Name">
+                        <i><img src="./icon-error.svg" id="fa2"></i>
+                    </div>
+                    <p class="error"></p>
+
+                    <div class="form-group">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <i><img src="./icon-error.svg" id="fa3"></i>
+                    </div>
+                    <p class="error"></p>
+
+                    <div class="form-group">
+                        <input type="password" name="password" id="password" placeholder="password">
+                        <i><img src="./icon-error.svg" id="fa4"></i>
+                    </div>
+                    <p class="error"></p>
+
+                    <div class="center">
+                        <input type="submit" value="CLAIM YOUR FREE TRIAL">
+                    </div>
+
+                    <h6>By clicking the button you are agreeing to our <a href="">Terms and Services</a></h6>
+                </form>
+            </div>
+
+        </div>
+    </main>
+
+
+    <script src="./script.js"></script>
+
+    
+</body>
+</html>
